@@ -41,12 +41,12 @@ durante 3 segundos`
 
 ## **`Etapas del proyecto`**
 ### Etapa 1:
-- `Acción 1`
-- `Acción 2`
+- `hacer el circuito de TINKERCARD`
+- `realizar los TPs`
 
 ### Etapa 2:
-- `Acción 1`
-- `Acción 2`
+- `probar el sistema con ardruino`
+
 
 ## **`Extras`**
 
