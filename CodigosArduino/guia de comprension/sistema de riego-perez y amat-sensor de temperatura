@@ -13,7 +13,7 @@ use el pin A0 porque es un sensor analogico, despues conecte la de la izquierda 
 
 
 Dibuja y explica brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
-aca hay una imagen nose como ponerla en el github
+
 ¿Cuál es el principio de funcionamiento del componente?
 lo que hace es que genera una tensión lineal en base a la temperatura del ambiente, osea cada 0.33 mv a un grado celcius
 ¿Utiliza alguna librería particular para programarlo?
