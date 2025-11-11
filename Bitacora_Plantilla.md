@@ -14,22 +14,20 @@
 
 ## **`Semana 1`**
 
-**`Fecha:`**
+**`Fecha: 4/11`**
 
 **`Actividades Realizadas:`**
 
-- `Actividad 1`  
-- `Actividad 2`
+- `hacer el read me`  
+- `empezar los TPs`
 
 **`Dificultades:`**
 
-- `Dificultad 1`  
-- `Dificultad 2`
 
 **`Próximos Pasos:`**
 
-- `Próximo paso 1`  
-- `Próximo paso 2`
+- `hacer el circuito en tinkercard`  
+- `terminar los TPs`
 
 
 ---
@@ -37,19 +35,16 @@
 
 ## **`Semana 2`**
 
-**`Fecha:`**
+**`Fecha: 11/11`**
 
 **`Actividades Realizadas:`**
 
-- `Actividad 1`  
-- `Actividad 2`
+- `terminamos los TPs`  
+- `terminamos la simulacion en TINKERCARD`
 
 **`Dificultades:`**
 
-- `Dificultad 1`  
-- `Dificultad 2`
+- `tuvimos algugnas dificultades con algunas preguntas de los TPs pot lo cual no pudimeos entregar
+- en primera instancia pero pudimos resolverlos`  
 
-**`Próximos Pasos:`**
 
-- `Próximo paso 1`  
-- `Próximo paso 2`
