@@ -17,7 +17,7 @@ esta coenctado a 3 pines el de la izquierda a 5V para tener la energia sufciente
 
 
 ¿Qué pin o pines de Arduino utilizan para conectarlo? ¿Por qué elegiste esos pines?
-el de la izquierda a 5V el del medio al GND y el de la derecha a A2
+el de la izquierda a 5V el del medio al GND y el de la derecha a A4
 
 
 Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
