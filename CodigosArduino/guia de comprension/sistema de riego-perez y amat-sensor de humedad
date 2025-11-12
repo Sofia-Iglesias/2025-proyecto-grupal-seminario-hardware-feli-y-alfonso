@@ -1,0 +1,54 @@
+¿Qué tipo de dispositivo es (sensor o actuador)? Explicá brevemente su función principal.
+ Es un sensor. Su función principal es medir la temperatura del ambiente o de un objeto.
+
+
+¿Qué tipo de señal utiliza para comunicarse con Arduino?
+usa señal analogica
+
+
+¿Cuál es el rango de valores que puede entregar o recibir el componente?
+
+
+ En Arduino, un sensor analógico entrega valores entre 0 y 1023. Esos valores representan una tensión que luego se transforma en grados.
+
+
+¿Qué pines de conexión tiene el componente? Enumerar y describir su función.
+esta coenctado a 3 pines el de la izquierda a 5V para tener la energia sufciente, el del medio a tierra, y el de la derecha a un pin analogico ya que es un sensor analogico 
+
+
+¿Qué pin o pines de Arduino utilizan para conectarlo? ¿Por qué elegiste esos pines?
+el de la izquierda a 5V el del medio al GND y el de la derecha a A4
+
+
+Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
+
+
+
+¿Cuál es el principio de funcionamiento del componente?
+su principal funcion es medir la humedad del ambiente y en base eso mandar una señal en este caso a un led y a un buzzer
+
+
+¿Utiliza alguna librería particular para programarlo?
+no requiere librería externa
+
+
+¿Cómo se interpreta el dato de entrada o salida del componente en el programa?
+el ardruino lee el valor del sensor entre 0 y 1023 y segun esto da un dato
+
+
+¿Qué limitaciones o precauciones eléctricas hay que tener en cuenta?
+no se le debe administrar más energía de la necesaria, tambien hay que evitar dejarlo cerca de lugares humedecidos artificialmente para no alterar el sistema
+
+¿Cómo verificamos que el componente funciona correctamente antes de incorporarlo al proyecto final?
+si cuando llega al valor de humedad indicado se prende el led y el buzzer esta funcionando
+
+
+Simular en Tinkercad e incluir el link de la simulación.
+ https://www.tinkercad.com/things/9863eIsEuJB-smashing-krunk/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=zvTm_l2-itxE9BCO5cj2b3mVHjcfW_htSRr4FxjxraU
+
+En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
+cuando se le da un valor al sensor requerido para que se prendan el led y el buzzer pase eso 
+
+
+¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
+ podría fallar si cuando vos lo probaste no actúa ninguna actuado o si esta mal conectado

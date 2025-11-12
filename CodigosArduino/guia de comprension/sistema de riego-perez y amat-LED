@@ -1,0 +1,53 @@
+¿Qué tipo de dispositivo es (sensor o actuador)? Explicá brevemente su función principal.
+ Es un actuador.
+
+
+¿Qué tipo de señal utiliza para comunicarse con Arduino?
+ Usa señal digital
+
+
+¿Cuál es el rango de valores que puede entregar o recibir el componente?
+ Arduino le entrega 0V a 5V
+
+¿Qué pines de conexión tiene el componente? Ennumerar y describir su función.
+la pata derecha está conectada al pin digital 2 y la derecha contiene una resistencia y está conectada a tierra
+
+
+¿Qué pin o pines de Arduino utilizan para conectarlo? ¿Por qué elegiste esos pines?
+utilizamos esos pines porque primero al ser un sistema digital enecita un pin digital y necesita estar conectado a tierra
+
+
+Dibuja y explica brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
+
+
+
+¿Cuál es el principio de funcionamiento del componente?
+ El led emite luz cuando la corriente pasa a través de su unión interna.
+
+
+¿Utiliza alguna librería particular para programarlo?
+este componente no necesita libreria
+
+
+¿Cómo se interpreta el dato de entrada o salida del componente en el programa?
+ Se controla con digitalWrite (HIGH para encender, LOW para apagar)
+
+
+¿Qué limitaciones o precauciones eléctricas hay que tener en cuenta?
+ Siempre debe usarse una resistencia en nuestro caso una de 330Ω
+
+
+¿Cómo verificamos que el componente funciona correctamente antes de incorporarlo al proyecto final?
+ podemos accionar alguno de los sensores que estan vinculados a ese led y ver si se prende como esta indicado
+
+
+Simular en Tinkercad e incluir el link de la simulación.
+https://www.tinkercad.com/things/9863eIsEuJB-smashing-krunk/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=zvTm_l2-itxE9BCO5cj2b3mVHjcfW_htSRr4FxjxraU
+
+
+En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
+ Que el LED se encienda cuando corresponda y se apague cuando el código lo indique.
+
+
+¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
+podria fallar si no esta codeado correctamente, no esta conectado bien o estan conectadas las patas al reves o la resistencia no esta bien conectada o no tiene los valores correctos

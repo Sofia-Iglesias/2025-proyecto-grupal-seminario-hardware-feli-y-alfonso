@@ -1,0 +1,38 @@
+¿Qué tipo de dispositivo es (sensor o actuador)? Explicá brevemente su función principal.
+este dispositivo es un sensor y su funcion es detectar la temperatura del ambiente y enviar un orden al actuador en este caso serian un led y un buzzer
+¿Qué tipo de señal utiliza para comunicarse con Arduino?
+usa el tipo de energia analogica
+¿Cuál es el rango de valores que puede entregar o recibir el componente?
+la temperatura que soporta es entre -55 grados celsius y 150 grados celsius
+y por cada grado celsius brinda 0.33mv osea que con 30 grados es 1v
+¿Qué pines de conexión tiene el componente? Enumerar y describir su función.
+el de la izquierda lo conecte a 5V, el del medio lo conecte al pin analogico A0
+y el de la derecha al GND
+¿Qué pin o pines de Arduino utilizan para conectarlo? ¿Por qué elegiste esos pines?
+use el pin A0 porque es un sensor analogico, despues conecte la de la izquierda a 5V para alimentarlo y la derecha al GND para terminar el circuito
+
+
+Dibuja y explica brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
+
+¿Cuál es el principio de funcionamiento del componente?
+lo que hace es que genera una tensión lineal en base a la temperatura del ambiente, osea cada 0.33 mv a un grado celcius
+¿Utiliza alguna librería particular para programarlo?
+no necesita librería particular
+¿Cómo se interpreta el dato de entrada o salida del componente en el programa?
+¿Qué limitaciones o precauciones eléctricas hay que tener en cuenta?
+primero no dejarlo cerca de alguna fuente de calor para no alterar su funcionamiento natural, no superar el límite de voltaje y asegurar una buena conexión
+¿Cómo verificamos que el componente funciona correctamente antes de incorporarlo al proyecto final?
+yo lo verifique conectandolo directamente al arduino, despues moviendolo de menos grados a mas grados a ver cuando se prendia la luz y sonaba el buzzer y funcionaba correcto
+Simular en Tinkercad e incluir el link de la simulación.
+https://www.tinkercad.com/things/9863eIsEuJB-smashing-krunk/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=zvTm_l2-itxE9BCO5cj2b3mVHjcfW_htSRr4FxjxraU
+
+
+En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
+
+
+se espera que si el sensor funciona correctamente que cuando llegue a la temperatura indicada se prenda el led azul y el buzzer y que cuando deje de estarlo se apague
+¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
+
+
+podría fallar el led y el buzzer no se prenden a la vez como está indicado en el código, por motivos como que este mal conectado por ejemplo
+

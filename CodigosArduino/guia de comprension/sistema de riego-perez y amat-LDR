@@ -1,0 +1,57 @@
+¿Qué tipo de dispositivo es (sensor o actuador)? Explicá brevemente su función principal.
+este dispositivo es un sensor de luz y su funcion es detectar la luz y en base a eso dar una señal
+
+
+¿Qué tipo de señal utiliza para comunicarse con Arduino?
+usa señal analogica
+
+
+¿Cuál es el rango de valores que puede entregar o recibir el componente?
+ Arduino lo lee entre 0 y 1023.
+
+
+¿Qué pines de conexión tiene el componente? Ennumerar y describir su función.
+la pata izquierda esta conectada a 5V y la derecha a un pin analogico
+
+
+¿Qué pin o pines de Arduino utilizan para conectarlo? ¿Por qué elegiste estos pines?
+utilize los pines de 5v porque es la energia necesaria para el sensor y elegí el pin A2 porque es un sensor analogico osea va a un pin analogico
+
+Dibuja y explica brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
+
+
+¿Cuál es el principio de funcionamiento del componente?
+
+
+Su resistencia cambia con la luz: mucha luz = menos resistencia; poca luz = más resistencia.
+
+
+¿Utiliza alguna librería particular para programarlo?
+en este caso no utiliza libreria
+
+
+¿Cómo se interpreta el dato de entrada o salida del componente en el programa?
+ Con analogRead, que devuelve de 0 a 1023. Normalmente los números bajos indican mucha luz.
+
+
+¿Qué limitaciones o precauciones eléctricas hay que tener en cuenta?
+
+
+normalmente hay que usarlo con una resistencia en este caso usamos una de 10KO
+
+¿Cómo verificarías que el componente funciona correctamente antes de incorporarlo al proyecto final?
+
+
+ Taparlo y destaparlo mientras veo si las funciones que fueron programadas se ejecutan correctamente
+
+Simular en Tinkercad e incluir el link de la simulación.
+
+https://www.tinkercad.com/things/9863eIsEuJB-smashing-krunk/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=zvTm_l2-itxE9BCO5cj2b3mVHjcfW_htSRr4FxjxraU
+
+
+En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
+espero que cuando se tape y destape el LDR se cumplan las funciones como prender el buzzer y el led
+
+
+14)¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en   el código o en el circuito?
+puede fallar por conectar mal o al revés los cables, codear mal o administrarle mucho voltaje (más del estimado)

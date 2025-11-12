@@ -1,0 +1,51 @@
+¿Qué tipo de dispositivo es (sensor o actuador)? Explicá brevemente su función principal.
+ Es un sensor. Su función principal detectar si esta pulsado o no
+¿Qué tipo de señal utiliza para comunicarse con Arduino?
+usa señal digital
+
+
+¿Cuál es el rango de valores que puede entregar o recibir el componente?
+
+
+ en este caso este sensor digital solo puede entrgar dos valores HIGH and LOW
+
+
+¿Qué pines de conexión tiene el componente? Enumerar y describir su función.
+el boton esta conectado a dos pines, el de la izquierda esta conectado a energia y el de la derecha  un pin digital porque es un sensor digital
+
+
+¿Qué pin o pines de Arduino utilizan para conectarlo? ¿Por qué elegiste esos pines?
+el de la izquierda a 5V y el de la derecha esta conectado al pin digital 3
+
+
+Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
+
+
+
+¿Cuál es el principio de funcionamiento del componente?
+su funcionamiento consiste en que si es pulsado y se deja de pulsar el led y el led verde y el buzzer quedan encendidos durante 3 segundos y después se apagan
+
+
+¿Utiliza alguna librería particular para programarlo?
+no utiliza libreria 
+
+¿Cómo se interpreta el dato de entrada o salida del componente en el programa?
+se interpreta entre los valores 0 y 1
+
+
+¿Qué limitaciones o precauciones eléctricas hay que tener en cuenta?
+no se le debe administrar más energía de la necesaria, tambien hay que evitar dejarlo cerca de lugares humedecidos artificialmente para no alterar el sistema
+algunas preocupaciones pueden ser que no este bien conectado o que no tenga una resistencia en mi caso tiene una de 330Ω
+¿Cómo verificamos que el componente funciona correctamente antes de incorporarlo al proyecto final?
+si cuando se presiona el led y el buzzer se prenden 3 segundos y despues se apagan esta funcionando
+
+
+Simular en Tinkercad e incluir el link de la simulación.
+ https://www.tinkercad.com/things/9863eIsEuJB-smashing-krunk/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=zvTm_l2-itxE9BCO5cj2b3mVHjcfW_htSRr4FxjxraU
+
+En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
+que cuando se presione el botón actue lo que previamente estaba codeado
+
+
+¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
+ podría fallar si cuando vos lo apretas no pasa o si esta mal conectado, o no tiene una resistencia

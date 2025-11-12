@@ -1,0 +1,50 @@
+¿Qué tipo de dispositivo es (sensor o actuador)? Explicá brevemente su función principal.
+ Es un actor.
+
+
+¿Qué tipo de señal utiliza para comunicarse con Arduino?
+es un actuador digital osea encendido y apagado
+
+
+¿Cuál es el rango de valores que puede entregar o recibir el componente?
+ Funciona con 5V, consume entre 10 y 30 mA
+
+
+¿Qué pines de conexión tiene el componente? Enumerar y describir su función.
+
+
+la pata de la derecha esta conectado a GND y el de la izquierda a un pin digital
+¿Qué pin o pines de Arduino utilizan para conectarlo? ¿Por qué elegiste estos pines?
+el de la izquierda esta conectado al pin digital 11 porque es un actuador digital y el de la derecha esta conectado al GND para completar el circuito
+¿Cuál es el principio de funcionamiento del componente?
+basicamente se trata de un disco que cuiando resive energia vibra y genera sonido
+
+
+¿Utiliza alguna librería particular para programarlo?
+no necesite librería particular ya viene con el arduino
+¿Cómo se interpreta el dato de entrada o salida del componente en el programa?
+cuando el buzzer recibe la señal de HIGH se enciende y cuando recibe la de LOW se apaga
+
+
+¿Qué limitaciones o precauciones eléctricas hay que tener en cuenta?
+ No usar más de 5V.
+ Conectar correctamente los pines positivo y negativo.
+ Evitar frecuencias demasiado bajas o demasiado altas.
+
+
+¿Cómo verificarías que el componente funciona correctamente antes de incorporarlo al proyecto final?
+
+
+Si el buzo hace un pitido, está funcionando bien.
+Simular en Tinkercad e incluir el link de la simulación.
+
+https://www.tinkercad.com/things/9863eIsEuJB-smashing-krunk/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=zvTm_l2-itxE9BCO5cj2b3mVHjcfW_htSRr4FxjxraU
+
+En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
+espero que cuando alguno de los sensores o el boton se active el buzzer se encienda correctamente
+
+
+¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
+puede fallar por conectar mal o alreves los cables, codear mal o administrarle mucho voltaje (mas del estimado)
+
+
